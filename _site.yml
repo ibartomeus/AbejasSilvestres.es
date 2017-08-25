@@ -4,18 +4,15 @@ navbar:
   title: "Abejas Silvestres"                                
   type: inverse
   left:
-    - text: "Home"
+    - text: "Inicio"
       icon: fa-home
       href: index.html
-    - text: "About"
+    - text: "Recursos"
       icon: fa-user 
-      href: about.html
-    - text: "CV"
+      href: recursos.html
+    - text: "Bartomeus lab"
       icon: fa-file-pdf-o
-      href: cv.html
-    - text: "Blog"
-      icon: fa-rss
-      href: https://AbejasSilvestres.github.io/blog/     
+      href: http://www.bartomeuslab.com
   right:
     - text: "Contact me"
       icon: fa-envelope-o

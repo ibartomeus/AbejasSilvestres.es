@@ -1,0 +1,29 @@
+name: "AbejasSilvestres"                                  
+output_dir: "."
+navbar:
+  title: "Abejas Silvestres"                                
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+    - text: "CV"
+      icon: fa-file-pdf-o
+      href: cv.html
+    - text: "Blog"
+      icon: fa-rss
+      href: https://AbejasSilvestres.github.io/blog/     
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:nacho.bartomeus@gmail.com                     
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/ibartomeus          
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate

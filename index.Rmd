@@ -2,6 +2,15 @@
 title: "Abejas Silvestres"
 ---
 
-To do: 
+```{r}
+dat <- read.csv("_data/data.csv")
+library(mapr)
+col <- unique(dat[, c("name", "family")]) 
+col$id <- as.numeric(as.factor(col$family))
+col <- merge(col, data.frame(id = 1:6, col = rainbow(6))) 
+#head(col)
+map_leaflet(dat, lon = "decimalLongitude", lat = "decimalLatitude", 
+            size = 6, color = col$col)
 
-- Load data and plot it!
+```
+

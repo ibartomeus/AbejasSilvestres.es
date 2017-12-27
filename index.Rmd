@@ -1,17 +1,19 @@
 ---
 title: "Abejas Silvestres"
 output: 
-  flexdashboard::flex_dashboard:
-    storyboard: true
+  flexdashboard::flex_dashboard
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 ```
 
+Abejas silvestres {.storyboard}
+=========================================
+
 ### Diversidad de abejas en España
 
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 dat <- read.csv("_data/data.csv")
 ji <- function(xy, origin=c(0,0), cellsize=c(1,1)) {
   t(apply(xy, 1, function(z) cellsize/2+origin+cellsize*(floor((z - origin)/cellsize))))
@@ -80,8 +82,13 @@ Dentro de las abejas hay seis familias principales en España. ...
 
 ### Que les pasa a las abejas?
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>```
 
 *** 
 
 Seguramente habras oido habar del declive de las abejas. En este video te explicamos que les esta pasando y como podemos ayudar.
+
+Más recursos
+=========================================
+
+Si queres colaboar... 

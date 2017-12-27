@@ -148,11 +148,11 @@ ji <- function(xy, origin=c(0,0), cellsize=c(1,1)) {
   t(apply(xy, 1, function(z) cellsize/2+origin+cellsize*(floor((z - origin)/cellsize))))
 }
 #JI <- ji(cbind(data.df$LONGITUDE, data.df$LATITUDE))
-JI <- ji(cbind(dat$ES$decimalLongitude, dat$ES$decimalLatitude))
-dat$ES$X <- JI[, 1]
-dat$ES$Y <- JI[, 2]
-dat$ES$Cell <- paste(dat$ES$X, dat$ES$Y)
-counts <- by(dat$ES, dat$ES$Cell, 
+JI <- ji(cbind(dat$decimalLongitude, dat$decimalLatitude))
+dat$X <- JI[, 1]
+dat$Y <- JI[, 2]
+dat$Cell <- paste(dat$X, dat$Y)
+counts <- by(dat, dat$Cell, 
              function(d) c(d$X[1], d$Y[1], length(unique(d$name))))
 counts.m <- matrix(unlist(counts), nrow=3)
 rownames(counts.m) <- c("X", "Y", "Count")

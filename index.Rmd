@@ -99,7 +99,6 @@ La diversidad de abejas es enorme, las hay pequeñas, grandes, peludas, y a pesa
 ```{r, out.width = "100%"}
 # All defaults
 include_graphics("media/que_abeja.jpg")
-include_graphics("media/que_abeja.jpg")
 ```
 
 *** 
@@ -110,10 +109,24 @@ Dentro de las abejas hay seis familias principales en España. ...
 
 Descargate esta mini-guia en PDF [aquí](link)
 
+### Como las puedo identificar?
+
+```{r, out.width = "100%"}
+# All defaults
+include_graphics("media/que_abeja.jpg")
+```
+
+*** 
+
+Las abejas son dificiles de diferenciar ya que son pequeñas rápidas y muchas se parecen entre si. Dentro de las abejas hay seis familias principales en España. La más comun es la abeja de la miel y los abejorros. Otros apidos faciles de ver son las abejas carpinteras. ....
+
+Descargate esta mini-guia en PDF [aquí](link)
+
 ### Que les pasa a las abejas?
 
 <!--html_preserve-->
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>
+<embed width="420" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg">
+
 <!--/html_preserve-->
 
 *** 

@@ -1,5 +1,5 @@
 ---
-title: "Abejas Silvestres"
+title: "Bartomeus lab"
 output: 
   flexdashboard::flex_dashboard
 ---
@@ -17,6 +17,7 @@ Abejas silvestres {.storyboard}
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library("leaflet")
 library("htmltools")
+library("vegan")
 dat <- read.csv("_data/data.csv")
 ji <- function(xy, origin=c(0,0), cellsize=c(1,1)) {
   t(apply(xy, 1, function(z) cellsize/2+origin+cellsize*(floor((z - origin)/cellsize))))
@@ -25,22 +26,38 @@ JI <- ji(cbind(dat$decimalLongitude, dat$decimalLatitude))
 dat$X <- JI[, 1]
 dat$Y <- JI[, 2]
 dat$Cell <- paste(dat$X, dat$Y)
+sample <- by(dat, dat$Cell, 
+             function(d) c(d$X[1], d$Y[1], length(d$name)))
 counts <- by(dat, dat$Cell, 
              function(d) c(d$X[1], d$Y[1], length(unique(d$name))))
+estimated <- by(dat, dat$Cell, 
+             function(d) c(d$X[1], d$Y[1], estimateR(table(d$name))))
+#estimateR(table(dat$name))
 counts.m <- matrix(unlist(counts), nrow=3)
 rownames(counts.m) <- c("X", "Y", "Count")
-#need to use chao estimator here.
 counts.m <- as.data.frame(t(counts.m))
+sample.m <- matrix(unlist(sample), nrow=3)
+rownames(sample.m) <- c("X", "Y", "Sample")
+sample.m <- as.data.frame(t(sample.m))
+estimated.m <- matrix(unlist(estimated), nrow=7)
+rownames(estimated.m) <- c("X", "Y", "Observed", "Chao1", "SE_Chao1", "ACE", "SE_ACE")
+estimated.m <- as.data.frame(t(estimated.m))
+estimated.m$Count <- counts.m$Count
+estimated.m$Sample <- sample.m$Sample
+#remove low sample size grids
+hist(estimated.m$Sample)
+estimated.m <- estimated.m[which(estimated.m$Sample > 100),]
 pal <- colorNumeric(
-  palette = heat.colors(unique(counts.m$Count)),
-  domain = counts.m$Count
+  palette = sort(heat.colors(unique(estimated.m$Chao1)), decreasing = TRUE),
+  domain = estimated.m$Chao1
 )
-leaflet(counts.m) %>% addTiles() %>%
-  addCircles(lng = ~X, lat = ~Y , weight = 1,
-    radius = ~(Count*1000), popup = ~Count, color = ~pal(Count)
+leaflet(estimated.m) %>% addTiles() %>%
+  addCircles(lng = ~X-0.5, lat = ~Y, weight = 1, opacity = 1,fillOpacity = 0.5,
+    radius = 40000, popup = ~Chao1, color = ~pal(Chao1),
+    labelOptions = labelOptions(noHide = T, textOnly = TRUE, textsize = "2000px")
   )  %>%
   addLegend(position = "bottomright", 
-          pal = pal, values = ~Count,
+          pal = pal, values = ~Chao1,
     title = "Bee diversity",
     opacity = 1)
 ```
@@ -96,6 +113,11 @@ Dentro de las abejas hay seis familias principales en España. ...
 Seguramente habras oido habar del declive de las abejas. En este video te explicamos que les esta pasando y como podemos ayudar.
 
 Más recursos
+=========================================
+
+Videos, etc...
+
+Colabora
 =========================================
 
 Si queres colaboar... 

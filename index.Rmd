@@ -6,7 +6,7 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
-
+library(knitr)
 ```
 
 Abejas silvestres {.storyboard}
@@ -45,7 +45,7 @@ estimated.m <- as.data.frame(t(estimated.m))
 estimated.m$Count <- counts.m$Count
 estimated.m$Sample <- sample.m$Sample
 #remove low sample size grids
-hist(estimated.m$Sample)
+#hist(estimated.m$Sample)
 estimated.m <- estimated.m[which(estimated.m$Sample > 100),]
 pal <- colorNumeric(
   palette = sort(heat.colors(unique(estimated.m$Chao1)), decreasing = TRUE),
@@ -96,12 +96,11 @@ La diversidad de abejas es enorme, las hay pequeñas, grandes, peludas, y a pesa
 
 ### Que es una abeja? Y como las puedo identificar?
 
-<div style="width:300px; height=200px">
-![bee guide](media/que_abeja.jpg)
-</div>
-<div style="width:300px; height=200px">
-![bee id](media/que_abeja.jpg)
-</div>
+```{r, out.width = "100%"}
+# All defaults
+include_graphics("media/que_abeja.jpg")
+include_graphics("media/que_abeja.jpg")
+```
 
 *** 
 

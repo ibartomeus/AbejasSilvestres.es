@@ -1,25 +1,5 @@
 name: "AbejasSilvestres"                                  
 output_dir: "."
-navbar:
-  title: "Abejas Silvestres"                                
-  type: inverse
-  left:
-    - text: "Inicio"
-      icon: fa-home
-      href: index.html
-    - text: "Recursos"
-      icon: fa-user 
-      href: recursos.html
-    - text: "Bartomeus lab"
-      icon: fa-file-pdf-o
-      href: http://www.bartomeuslab.com
-  right:
-    - text: "Contact me"
-      icon: fa-envelope-o
-      href: mailto:nacho.bartomeus@gmail.com                     
-    - text: "GitHub"
-      icon: fa-github
-      href: https://github.com/ibartomeus          
 output:
   html_document:
     theme: cosmo

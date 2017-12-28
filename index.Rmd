@@ -96,8 +96,12 @@ La diversidad de abejas es enorme, las hay pequeñas, grandes, peludas, y a pesa
 
 ### Que es una abeja? Y como las puedo identificar?
 
-![bee guide](_media/que_abeja.jpg)
-![bee id](_media/que_abeja.jpg)
+<div style="width:300px; height=200px">
+![bee guide](media/que_abeja.jpg)
+</div>
+<div style="width:300px; height=200px">
+![bee id](media/que_abeja.jpg)
+</div>
 
 *** 
 

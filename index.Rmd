@@ -96,7 +96,8 @@ La diversidad de abejas es enorme, las hay pequeñas, grandes, peludas, y a pesa
 
 ### Que es una abeja? Y como las puedo identificar?
 
-Aqui el png de which bee...
+![bee guide](_media/que_abeja.jpg)
+![bee id](_media/que_abeja.jpg)
 
 *** 
 
@@ -104,9 +105,13 @@ Las abejas son insectos del orden de los hymenopteros, y por tanto tienen seis p
 
 Dentro de las abejas hay seis familias principales en España. ... 
 
+Descargate esta mini-guia en PDF [aquí](link)
+
 ### Que les pasa a las abejas?
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>```
+<!--html_preserve-->
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>
+<!--/html_preserve-->
 
 *** 
 
@@ -115,9 +120,19 @@ Seguramente habras oido habar del declive de las abejas. En este video te explic
 Más recursos
 =========================================
 
-Videos, etc...
+Esta web esta mantenida por el grupo de invesigación de [Ignasi Bartomeus](http://www.bartomeuslab.com). Aquí hay otros recursos que hemos creado:  
+
+- Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
 
 Colabora
 =========================================
 
-Si queres colaboar... 
+El declive de las abejas está recibiendo mucha atención mediática ya que son una pieza muy importante del ecosistema. Gracias al esfuerzo de investigación ya hemos descubierto algunas causas y consecuencias de este complejo proceso. Seguimos investigando para continuar entendiendo el problema y proponiendo soluciones.
+
+También necesitamos informar a la sociedad para mejorar nuestra relación con insectos beneficiosos como las abejas, de forma que la polinización de las flores siga entregando sus frutos en un ecosistema razonablemente sano.
+
+Te invito a sumarte a nuestro equipo haciendo Teaming, una forma fácil y segura de contribuir al proyecto con 1 euro al mes (desgravable hasta el 75%).
+
+Con tu apoyo contribuirás a la investigación co-financiando experimentos y nos ayudarás a generar recursos y guías que nos permitan informar mejor a la sociedad. Como miembro del equipo recibirás actualizaciones de nuestros avances científicos dos veces al año.  
+
+[Súmate aquí a nuestro equipo Ciencia para las abejas](https://www.teaming.net/cienciaparalasabejas)

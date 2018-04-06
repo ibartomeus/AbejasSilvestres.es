@@ -117,17 +117,46 @@ gbifmap(input = dat, region = c("Spain", "Portugal"))
 
 #iNaturalist----
 library(rinat)
-bounds <- c(38.44047, -125, 40.86652, -121.837)
-deer <- get_inat_obs(query = "Mule Deer", bounds = bounds)
+bounds <- c(44.15, -10.13, 35.67, 4.76) #Spain
+apidae <- get_inat_obs(taxon_name = "Apidae", geo = TRUE, maxresults = 7000 , bounds = bounds)
+andrenidae <- get_inat_obs(taxon_name = "Andrenidae", geo = TRUE, maxresults = 7000 , bounds = bounds)
+halictidae <- get_inat_obs(taxon_name = "Halictidae", geo = TRUE, maxresults = 7000 , bounds = bounds)
+colletidae <- get_inat_obs(taxon_name = "Colletidae", geo = TRUE, maxresults = 7000 , bounds = bounds)
+megachilidae <- get_inat_obs(taxon_name = "Megachilidae", geo = TRUE, maxresults = 7000 , bounds = bounds)
+melittidae <- get_inat_obs(taxon_name = "Melittidae", geo = TRUE, maxresults = 7000 , bounds = bounds)
+apidae$scientific_name #278
+andrenidae$scientific_name #15 (most genus only)
+halictidae$scientific_name #8
+colletidae$scientific_name #1
+megachilidae$scientific_name #42
+melittidae$scientific_name #0
 
+inat <- rbind(apidae, andrenidae, halictidae, colletidae, megachilidae)
+head(inat)
 
 #Traitbase----
+library(traitbaser)
+cnx <- connect("http://www.traitbase.info", "", "")
+off <- resource(cnx, "species")
 
+query(off)
+query(off, conditions=buildCondition("species", "==", "Bombus")  )
+query(off, limit=2, skip=0)
+query(off, limit=2, skip=2)
 
 #merge Gen sp plant lat long, date, credit----
+colnames(dat)
+colnames(inat)
 
 
-#map points----
+#Clean----
+#Duplicates
+#https://github.com/ropensci/scrubr
+
+#Maybe add spocc? https://cran.r-project.org/web/packages/spocc/vignettes/spocc_vignette.html
+
+
+#Quick map points----
 head(dat)
 library(mapr)
 col <- unique(dat[, c("name", "family")]) 

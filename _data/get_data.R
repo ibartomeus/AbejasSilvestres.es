@@ -1,5 +1,13 @@
 #fetch data, convert to 10*10 km and plot both, maybe interactively.
 
+
+#To DO:
+#- incrsuat video
+#- limpiar datos (gen_sp, canarias, mar)
+#- Añadir metadatos especies autor, link
+#- Entrar datos en traitbase
+#- funciones para query traitbase mejor.
+
 #Gbif----
 library(rgbif)
 spain_code <- isocodes[grep("Spain", isocodes$name), "code"]
@@ -151,6 +159,10 @@ colnames(inat)
 
 #Clean----
 #Duplicates
+#species in canary islands
+#species in the see
+#species with only genus
+
 #https://github.com/ropensci/scrubr
 
 #Maybe add spocc? https://cran.r-project.org/web/packages/spocc/vignettes/spocc_vignette.html

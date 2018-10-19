@@ -213,3 +213,27 @@ map(add = TRUE) #we are a bit off...
 library(mapview)
 #rasters
 #mapView()
+
+#fetch some data----
+
+dat <- read.csv("_data/data.csv")
+head(dat)
+tail(sort(table(dat$species)), 100)
+
+Megachile willughbiella 
+Nomioides fortunatus
+Colletes nigricans
+Hoplitis benoisti
+Megachile pyrenaica
+Sphecodes gibbus
+Owen
+Heriades rubicola
+Dioxis cincta
+
+Megachile apicalis
+Anthidium septemdentatum
+
+
+
+
+

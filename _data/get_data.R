@@ -2,9 +2,13 @@
 
 
 #To DO:
-#- limpiar datos (gen_sp: sinominos, canarias: OK, mar: todo!)
+#- limpiar datos (gen_sp: sinominos, canarias: OK, mar: todo!, add families!)
 #- Entrar datos en traitbase (por ahora Beefun OK + asensio OK + Out + Cap Creus? + Gredos?)
 #- funciones para query traitbase mejor.
+
+#web:
+#To DO:
+#- Añadir metadatos: collector (limpiar), link(tesauro?)
 
 #Gbif----
 library(rgbif)

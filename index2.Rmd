@@ -8,8 +8,6 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(knitr)
-#To DO:
-#- Añadir metadatos: collector (limpiar), link(tesauro?)
 ```
 
 

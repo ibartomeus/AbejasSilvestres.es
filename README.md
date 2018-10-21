@@ -1,8 +1,8 @@
-# Testing webpages for hosting bee maps...
+# Web de la asociación AbejasSilvestres
 
-You can see the page at: https://ibartomeus.github.io/AbejasSilvestres.es/
+Puedes ver la web en: https://www.AbejasSilvestres.es/
 
-Sections needed:
+Sections:
 - biodiversity hotspots by tiles.
 - occurrence data
 - occurrence data (filtered? Shinny; species clickable and with link to traitbase)

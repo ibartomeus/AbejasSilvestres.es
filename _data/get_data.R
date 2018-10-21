@@ -2,8 +2,8 @@
 
 
 #To DO:
-#- limpiar datos (gen_sp, canarias, mar)
-#- Entrar datos en traitbase (por ahora Beefun + asensio + Out + Cap Creus?)
+#- limpiar datos (gen_sp: sinominos, canarias: OK, mar: todo!)
+#- Entrar datos en traitbase (por ahora Beefun OK + asensio OK + Out + Cap Creus? + Gredos?)
 #- funciones para query traitbase mejor.
 
 #Gbif----
@@ -275,6 +275,15 @@ dim(d6) #9622 occurrences...
 #export
 
 write.csv(d6, file = "_data/data.csv")
+
+
+#Add Gredos----
+
+dat <- read.csv("_data/data.csv")
+head(dat)
+
+
+
 
 #notes----
 

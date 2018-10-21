@@ -1,19 +1,20 @@
 ---
-title: "Abejas Silvestres"
+title: "AbejasSilvestres.es"
 output: 
-  flexdashboard::flex_dashboard
+  flexdashboard::flex_dashboard:
+    storyboard: true
+    social: menu
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(knitr)
 #To DO:
-#- incrsuar video
-#- Añadir metadatos especies autor, link
+#- Añadir metadatos: collector (limpiar), link(tesauro?)
 ```
 
 
-Abejas silvestres {.storyboard}
+Abejas silvestres{.storyboard}
 =========================================
 
 ### Diversidad de abejas en España
@@ -70,9 +71,11 @@ leaflet(estimated.m2) %>% addTiles() %>%
 
 *** 
 
-En españa hay más de 1000 especies de abejas diferentes, y se siguien describiendo nuevas especies cada año. En este mapa puedes ver el numero estimado de especies de abejas por cada 10 km2. Las zonas más diversas son aquellas con espacios naturales más bien conservados, pero hasta zonas agricolas o ciudades albergan una cantidad importante de abejas. Sin embargo, fijate que para muchas celdas no hay suficientes datos para estimar este numero. 
+La Península Ibérica alberga más de 1.000 especies de abejas diferentes, un número que aumenta anualmente a medida que se van describiendo nuevas especies. En este mapa puedes visualizar el número estimado de especies de abejas observadas por cada 10 km2. Estamos trabajando en aumentar la base de datos en que se basa este mapa (actualmente solo contiene ~ 10.000 observaciones de 850 especies), por eso hay algunas zonas donde no existe estimación del número de especies. ¡Esperamos ir reduciendo estas zonas sin suficientes datos pronto!
 
-### Quien y donde?
+
+
+### ¿Quién? y ¿Dónde?
 
 ```{r map occurrence, echo=FALSE, message=FALSE, warning=FALSE}
 dat <- read.csv("_data/data.csv")
@@ -99,24 +102,9 @@ addLegend(map = map2, position = "bottomright",
 
 *** 
 
-La diversidad de abejas es enorme, las hay pequeñas, grandes, peludas, y a pesar de que las más conocidas viven en colonias, la mayoria son solitarias. Si quieres explorar que especies se han encontrado en diferentes puntos de la peninsula puedes naver por este mapa interactivo. Los enlaces de cada especie te llevaran a una pagina de traitbase con algo más de información de algunas especies.
+La diversidad de morfologías, comportamientos y hábitos en las abejas es enorme. Existen especies de multitud de tamaños, desde muy grandes como algunas especies de abejas carpinteras (Xylocopa violacea, 3 cm de largo) hasta muy pequeñas como especies del grupo de las microandrenas (0.3 cm de largo). Mucha gente piensa que todas las abejas viven en colonias con una reina, muchas obreras y algunos zánganos, pero lo cierto es que la mayoría de las especies de abejas son solitarias. Es decir, no forman colmenas ni enjambres y en la mayoría de los casos tampoco producen miel. Si quieres explorar qué especies de abejas se han observado en diferentes puntos de la Península, puedes navegar por este mapa interactivo. Los enlaces de cada especie te llevarán a una página con algo más de información sobre algunas especies.
 
-### Que es una abeja? Y como las puedo identificar?
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
-# All defaults
-include_graphics("media/que_abeja.jpg")
-```
-
-*** 
-
-Las abejas son insectos del orden de los hymenopteros, y por tanto tienen seis patas y dos pares de ales. Se diferencian de sus "hermanas", las avispas, por que son vegetarianas y comen durante toda su vida nectar y polen. Suelen ser peludas, con antenas largas y encontrarse cerca de las flores.   
-
-Dentro de las abejas hay seis familias principales en España. ... 
-
-Descargate esta mini-guia en PDF [aquí](link)
-
-### Como las puedo identificar?
+### ¿Qué es una abeja? 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
 # All defaults
@@ -125,41 +113,50 @@ include_graphics("media/que_abeja.jpg")
 
 *** 
 
-Las abejas son dificiles de diferenciar ya que son pequeñas rápidas y muchas se parecen entre si. Dentro de las abejas hay seis familias principales en España. La más comun es la abeja de la miel y los abejorros. Otros apidos faciles de ver son las abejas carpinteras. ....
+Las abejas son insectos del orden de los himenópteros, uno de los más numerosos de los insectos, y que engloba a especies de abejas, abejorros, avispas y hormigas entre otros. Este orden se caracteriza por la presencia de dos pares de alas membranosas y de tres pares de patas. Las abejas, en particular, se diferencian de otras especies del orden con un aspecto similar, como las avispas, en que son exclusivamente vegetarianas, alimentándose durante toda su vida (tanto larvaria como adulta) de néctar y polen. Las avispas, en cambio, aunque también consumen polen y néctar, incluyen otros animales en su dieta. Las abejas suelen ser peludas, lo que facilita que el polen se quede adherido a su cuerpo, y poseen un par de antenas largas. Debido a su dependencia total del polen y néctar se las encuentra fácilmente cerca de flores. 
 
-Descargate esta mini-guia en PDF [aquí](link)
+[Aquí](link) puedes descargarte una mini-guía con más información.
 
-### Que les pasa a las abejas?
+### ¿Cómo las puedo identificar?
 
-```{r, echo=FALSE}
-#htmltools::includeHTML("test.html")
-#<!--html_preserve-->
-#<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" #allowfullscreen="allowfullscreen"></iframe>
-#<!--/html_preserve-->
-include_url(url = "video.html", height = "315")
-
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+# All defaults
+include_graphics("media/que_abeja.jpg")
 ```
 
 *** 
 
-Seguramente habras oido habar del declive de las abejas. En este video te explicamos que les esta pasando y como podemos ayudar.
+En pleno vuelo es muy difícil identificar la especie a la que pertenece una abeja, ya que son pequeñas, muy rápidas y muchas se parecen entre sí. La especie más común de abeja que podemos ver en la Península Ibérica es la abeja de la miel (*Apis mellifera*). Otras abejas que también son fáciles de ver, sobre todo por su tamaño, son los abejorros y las abejas carpinteras. En España hay 6 familias de abejas que describimos en el mini-guía de la izquierda.
 
-Más recursos
+[Aquí](link) puedes descargarte una mini-guía con más información.
+
+### ¿Qué les pasa a las abejas?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>
+
+*** 
+
+Seguramente habrás oído hablar de la desaparición de las abejas. En este video te explicamos qué les está pasando y cómo todos podemos ayudar a su conservación.
+
+
+Recursos
 =========================================
 
-Esta web esta mantenida por el grupo de invesigación de [Ignasi Bartomeus](http://www.bartomeuslab.com). Aquí hay otros recursos que hemos creado:  
+- Síguenos en twitter [@abejasolitaria](https://twitter.com/Abeja_Silvestre).
 
 - Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
 
-Colabora
+- Próximamente publicaremos la **Guía de campo de las abejas de España**.
+
+- Organizamos talleres de conservación, identificación y historia natural de abejas.
+
+- Consultoría sobre acciones de conservación y servicios ecosistémicos
+
+Hazte socio
 =========================================
 
-El declive de las abejas está recibiendo mucha atención mediática ya que son una pieza muy importante del ecosistema. Gracias al esfuerzo de investigación ya hemos descubierto algunas causas y consecuencias de este complejo proceso. Seguimos investigando para continuar entendiendo el problema y proponiendo soluciones.
+Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al año que se pagan usando la plataforma *Teaming*. *Teaming* es una forma fácil y segura de contribuir al proyecto con 1 euro al mes , y desgravable hasta el 75%.
 
-También necesitamos informar a la sociedad para mejorar nuestra relación con insectos beneficiosos como las abejas, de forma que la polinización de las flores siga entregando sus frutos en un ecosistema razonablemente sano.
+Con tu apoyo contribuirás a generar recursos y guías que nos permitan informar mejor a la sociedad sobre las abejas silvestres. Como miembro del equipo recibirás actualizaciones de nuestras actividades.
 
-Te invito a sumarte a nuestro equipo haciendo Teaming, una forma fácil y segura de contribuir al proyecto con 1 euro al mes (desgravable hasta el 75%).
-
-Con tu apoyo contribuirás a la investigación co-financiando experimentos y nos ayudarás a generar recursos y guías que nos permitan informar mejor a la sociedad. Como miembro del equipo recibirás actualizaciones de nuestros avances científicos dos veces al año.  
-
-[Súmate aquí a nuestro equipo Ciencia para las abejas](https://www.teaming.net/cienciaparalasabejas)
+[Súmate aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/cienciaparalasabejas)

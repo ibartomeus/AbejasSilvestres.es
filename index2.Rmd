@@ -2,7 +2,6 @@
 title: "AbejasSilvestres.es"
 output: 
   flexdashboard::flex_dashboard:
-    storyboard: true
     social: menu
 ---
 
@@ -14,7 +13,7 @@ library(knitr)
 ```
 
 
-Abejas silvestres{.storyboard}
+Abejas silvestres {.storyboard}
 =========================================
 
 ### Diversidad de abejas en España

@@ -7,11 +7,9 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(knitr)
-
 #To DO:
 #- incrsuar video
 #- Añadir metadatos especies autor, link
-
 ```
 
 
@@ -41,32 +39,31 @@ estimated <- by(dat, dat$Cell,
 #estimateR(table(dat$species))
 counts.m <- matrix(unlist(counts), nrow=3)
 rownames(counts.m) <- c("X", "Y", "Count")
-#counts.m <- as.data.frame(t(counts.m))
+counts.m <- as.data.frame(t(counts.m))
 sample.m <- matrix(unlist(sample), nrow=3)
 rownames(sample.m) <- c("X", "Y", "Sample")
-#sample.m <- as.data.frame(t(sample.m))
+sample.m <- as.data.frame(t(sample.m))
 estimated.m <- matrix(unlist(estimated), nrow=7)
 rownames(estimated.m) <- c("X", "Y", "Observed", "Chao1", "SE_Chao1", "ACE", "SE_ACE")
-#estimated.m <- as.data.frame(t(estimated.m))
-estimated.m2 <- data.frame(X = estimated.m["X",],
-                          Y = estimated.m["Y",],
-                          Chao1 = estimated.m["Chao1",])
-estimated.m2$Count <- counts.m["Count",]
-estimated.m2$Sample <- sample.m["Sample",]
+estimated.m2 <- as.data.frame(t(estimated.m))
+estimated.m2$Count <- counts.m$Count
+estimated.m2$Sample <- sample.m$Sample
 #remove low sample size grids
 #hist(estimated.m2$Sample)
-estimated.m2 <- estimated.m2[which(estimated.m2$Sample > 50),]
+estimated.m2 <- estimated.m2[which(estimated.m2$Sample > 40),]
+estimated.m2$ACE[which(estimated.m2$ACE > 500)] <- 300
+#pairs(estimated.m2)
 pal <- colorNumeric(
-  palette = sort(heat.colors(unique(estimated.m2$Chao1)), decreasing = TRUE),
-  domain = estimated.m2$Chao1
+  palette = sort(heat.colors(unique(estimated.m2$ACE)), decreasing = TRUE),
+  domain = estimated.m2$ACE
 )
 leaflet(estimated.m2) %>% addTiles() %>%
   addCircles(lng = ~X-0.5, lat = ~Y, weight = 1, opacity = 1,fillOpacity = 0.5,
-    radius = 40000, popup = ~Chao1, color = ~pal(Chao1),
+    radius = 40000, popup = ~ACE, color = ~pal(ACE),
     labelOptions = labelOptions(noHide = T, textOnly = TRUE, textsize = "2000px")
   )  %>%
   addLegend(position = "bottomright", 
-          pal = pal, values = ~Chao1,
+          pal = pal, values = ~ACE,
     title = "Bee diversity",
     opacity = 1)
 ```
@@ -134,9 +131,14 @@ Descargate esta mini-guia en PDF [aquí](link)
 
 ### Que les pasa a las abejas?
 
-<!--html_preserve-->
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-<!--/html_preserve-->
+```{r, echo=FALSE}
+#htmltools::includeHTML("test.html")
+#<!--html_preserve-->
+#<iframe width="560" height="315" src="https://www.youtube.com/watch?v=n5udBqq3qYg" frameborder="0" #allowfullscreen="allowfullscreen"></iframe>
+#<!--/html_preserve-->
+include_url(url = "video.html", height = "315")
+
+```
 
 *** 
 

@@ -8,6 +8,8 @@ output:
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(knitr)
+# logo: logo.png
+# favicon: favicon.png
 ```
 
 
@@ -139,7 +141,7 @@ Seguramente habrás oído hablar de la desaparición de las abejas. En este vide
 Recursos
 =========================================
 
-- Síguenos en twitter [@abejasolitaria](https://twitter.com/Abeja_Silvestre).
+- Síguenos en twitter [@ abejasolitaria](https://twitter.com/Abeja_Silvestre).
 
 - Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
 
@@ -157,3 +159,15 @@ Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al a�
 Con tu apoyo contribuirás a generar recursos y guías que nos permitan informar mejor a la sociedad sobre las abejas silvestres. Como miembro del equipo recibirás actualizaciones de nuestras actividades.
 
 [Súmate aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/cienciaparalasabejas)
+
+Quien somos
+=========================================
+
+Socios fundadores: Ignasi Bartomeus, Ainhoa Magrach y Curro Molina. 
+
+Contacto:   
+
+Datos legales:  
+
+
+

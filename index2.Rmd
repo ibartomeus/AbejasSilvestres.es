@@ -150,28 +150,28 @@ Recursos {data-width=500}
 
 - Próximamente publicaremos la **Guía de campo de las abejas de España**.
  
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
 # All defaults
-include_graphics("media/Andrena.jpg")
+include_graphics("media/Andrena.png")
 ```    
    
 Servicios {data-width=500}
 -------------------------------------
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
-# All defaults
-include_graphics("media/Dasypoda.jpg")
-```
-
 - Organizamos talleres de conservación, identificación y historia natural de abejas.
 
 - Consultoría sobre acciones de conservación y servicios ecosistémicos
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+# All defaults
+include_graphics("media/Dasypoda.png")
+```
 
 
 Hazte socio
 =========================================
 
-Colabora {data-width=700}
+Colabora {data-width=500}
 -------------------------------------
 
 Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al año que se pagan usando la plataforma *Teaming*. *Teaming* es una forma fácil y segura de contribuir al proyecto con 1 euro al mes , y desgravable hasta el 75%.
@@ -180,19 +180,35 @@ Con tu apoyo contribuirás a generar recursos y guías que nos permitan informar
 
 [Súmate aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/cienciaparalasabejas)
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+Foto {data-width=500}
+-------------------------------------
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
 # All defaults
-include_graphics("media/Rhodanthidium.jpg")
+include_graphics("media/Rhodanthidium.png")
 ```
 
-Quien somos
+Quien somos {data-orientation=rows}
 =========================================
+
+Row {data-height=400}
+-------------------------------------
+
+### Quien Somos
 
 Socios fundadores: Ignasi Bartomeus, Ainhoa Magrach y Curro Molina. 
 
 Contacto:   
 
 Datos legales:  
+
+Fotos: Curro Molina
+
+
+Row {data-height=600}
+-------------------------------------
+
+### Abejas Silvestres
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
 # All defaults

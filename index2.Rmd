@@ -131,34 +131,59 @@ En pleno vuelo es muy difícil identificar la especie a la que pertenece una abe
 
 ### ¿Qué les pasa a las abejas?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/n5udBqq3qYg" frameborder="0" allowfullscreen></iframe>
 
 *** 
 
 Seguramente habrás oído hablar de la desaparición de las abejas. En este video te explicamos qué les está pasando y cómo todos podemos ayudar a su conservación.
 
 
-Recursos
+Recursos y Servicios
 =========================================
+
+Recursos {data-width=500}
+-------------------------------------
 
 - Síguenos en twitter [@ abejasolitaria](https://twitter.com/Abeja_Silvestre).
 
 - Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
 
 - Próximamente publicaremos la **Guía de campo de las abejas de España**.
+ 
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+# All defaults
+include_graphics("media/Andrena.jpg")
+```    
+   
+Servicios {data-width=500}
+-------------------------------------
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+# All defaults
+include_graphics("media/Dasypoda.jpg")
+```
 
 - Organizamos talleres de conservación, identificación y historia natural de abejas.
 
 - Consultoría sobre acciones de conservación y servicios ecosistémicos
 
+
 Hazte socio
 =========================================
+
+Colabora {data-width=700}
+-------------------------------------
 
 Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al año que se pagan usando la plataforma *Teaming*. *Teaming* es una forma fácil y segura de contribuir al proyecto con 1 euro al mes , y desgravable hasta el 75%.
 
 Con tu apoyo contribuirás a generar recursos y guías que nos permitan informar mejor a la sociedad sobre las abejas silvestres. Como miembro del equipo recibirás actualizaciones de nuestras actividades.
 
 [Súmate aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/cienciaparalasabejas)
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+# All defaults
+include_graphics("media/Rhodanthidium.jpg")
+```
 
 Quien somos
 =========================================
@@ -169,5 +194,8 @@ Contacto:
 
 Datos legales:  
 
-
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+# All defaults
+include_graphics("media/abejassilvestres.jpg")
+```
 

@@ -2,13 +2,13 @@
 title: "AbejasSilvestres.es"
 output: 
   flexdashboard::flex_dashboard:
-    social: menu
+    social: menu [ "twitter", "facebook"]
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
 library(knitr)
-# logo: logo.png
+# logo: logo.png #48 pixels
 # favicon: favicon.png
 ```
 
@@ -144,46 +144,54 @@ Recursos y Servicios
 Recursos {data-width=500}
 -------------------------------------
 
+### Recursos
+
 - Síguenos en twitter [@ abejasolitaria](https://twitter.com/Abeja_Silvestre).
 
 - Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
 
-- Próximamente publicaremos la **Guía de campo de las abejas de España**.
+- Próximamente publicaremos la **Guía de campo de las abejas de España**.  
  
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+```{r, eval=FALSE, fig.align="center", message=FALSE, warning=FALSE, include=FALSE, out.width="50%"}
 # All defaults
 include_graphics("media/Andrena.png")
 ```    
+<img src="media/Andrena.png" alt="Andrena", width = "40%">
    
 Servicios {data-width=500}
 -------------------------------------
+
+### Servicios
 
 - Organizamos talleres de conservación, identificación y historia natural de abejas.
 
 - Consultoría sobre acciones de conservación y servicios ecosistémicos
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+- Servimos como plataforma para cualquier iniciativa relacionada con las abejas silvestres.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align = "center"}
 # All defaults
 include_graphics("media/Dasypoda.png")
-```
+```    
 
-
-Hazte socio
+Hazte socio {data-padding=100}
 =========================================
 
 Colabora {data-width=500}
 -------------------------------------
 
+### Colabora
+
 Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al año que se pagan usando la plataforma *Teaming*. *Teaming* es una forma fácil y segura de contribuir al proyecto con 1 euro al mes , y desgravable hasta el 75%.
 
 Con tu apoyo contribuirás a generar recursos y guías que nos permitan informar mejor a la sociedad sobre las abejas silvestres. Como miembro del equipo recibirás actualizaciones de nuestras actividades.
 
-[Súmate aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/cienciaparalasabejas)
+**[Súmate aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/cienciaparalasabejas)**
 
-Foto {data-width=500}
+Foto {data-width=500, data-padding=50}
 -------------------------------------
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="60%", fig.align = "center"}
 # All defaults
 include_graphics("media/Rhodanthidium.png")
 ```
@@ -191,26 +199,27 @@ include_graphics("media/Rhodanthidium.png")
 Quien somos {data-orientation=rows}
 =========================================
 
-Row {data-height=400}
+Row {data-height=400, data-padding=50}
 -------------------------------------
 
 ### Quien Somos
 
-Socios fundadores: Ignasi Bartomeus, Ainhoa Magrach y Curro Molina. 
+- Socios fundadores: Ignasi Bartomeus, Ainhoa Magrach y Curro Molina. 
 
-Contacto:   
+- Contacto:   
 
-Datos legales:  
+- Datos legales:  
 
-Fotos: Curro Molina
+- Fotos: Curro Molina
 
+- Datos: Los datos usados han sido recopilados de Gbif, iNaturalist y de diversos investigadores y naturalistas.
 
 Row {data-height=600}
 -------------------------------------
 
 ### Abejas Silvestres
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align = "center"}
 # All defaults
 include_graphics("media/abejassilvestres.jpg")
 ```

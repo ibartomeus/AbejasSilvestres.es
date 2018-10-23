@@ -146,18 +146,19 @@ Recursos {data-width=500}
 
 ### Recursos
 
-- Síguenos en twitter [@ abejasolitaria](https://twitter.com/Abeja_Silvestre).
+- Síguenos en twitter [@ abejasilvestre](https://twitter.com/Abeja_Silvestre).
 
 - Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
 
 - Próximamente publicaremos la **Guía de campo de las abejas de España**.  
  
-```{r, eval=FALSE, fig.align="center", message=FALSE, warning=FALSE, include=FALSE, out.width="50%"}
+### Andrena
+
+```{r, echo=FALSE, fig.align="center", message=FALSE, warning=FALSE, out.width="50%"}
 # All defaults
 include_graphics("media/Andrena.png")
 ```    
-<img src="media/Andrena.png" alt="Andrena", width = "40%">
-   
+
 Servicios {data-width=500}
 -------------------------------------
 
@@ -168,6 +169,8 @@ Servicios {data-width=500}
 - Consultoría sobre acciones de conservación y servicios ecosistémicos
 
 - Servimos como plataforma para cualquier iniciativa relacionada con las abejas silvestres.
+
+### Dassypoda
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align = "center"}
 # All defaults

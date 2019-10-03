@@ -1,0 +1,42 @@
+---
+title: ""
+---
+
+```{r setup, include=FALSE}
+#library(flexdashboard)
+library(knitr)
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="25%", fig.align="center"}
+# All defaults
+include_graphics("media/habeetat.jpg")
+```
+
+### Un proyecto para conservar las poblaciones de abejas silvestres en los campos
+
+Los polinizadores son insectos increíbles. La mayoría son abejas. Hay más de 1000 especies de abejas diferentes en España. Además, nos ayudan a polinizar las plantas y nuestros cultivos. Necesitamos diferentes especies de abejas, ya que cada una cumple funciones diferentes y se complementan.  
+
+Por eso queremos ayudamos a los agricultores comprometidos a conservar las abejas silvestres en los campos de cultivo con este proyecto patrocinado por **Granja San Francisco** para ayudara a las abejas en Cataluña.
+
+### ¿Por qué?  
+* Porque la biodiversidad es un tesoro que hay que conservar.  
+* Porque las abejas están en declive.  
+* Porque nos ayudan a mejorar el rendimiento del cultivo.  
+
+### ¿Cómo?  
+* Buscando soluciones con las que todos ganamos.   
+* Pensando a largo plazo.   
+* Llenando de plantas nativas nuestras lindes.    
+
+### Nosotros te regalamos:  
+* Una estudiada selección de plantas autóctonas que servirán de alimento para las abejas.  
+* Un nido de abejas solitarias.  
+
+### Tú te comprometes a plantarlas y cuidarlas  
+
+Y si te apetece, nos ayudas observando las abejas de tu campo.  
+
+> ¡Únete al proyecto!  
+contáctanos en [info.abejas.silvestres@gmail.com](mailto:info.abejas.silvestres@gmail.com) 
+
+Con la colaboración de:

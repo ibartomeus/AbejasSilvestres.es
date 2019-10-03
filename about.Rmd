@@ -1,0 +1,28 @@
+---
+title: "Quien somos"
+---
+
+```{r setup, include=FALSE}
+#library(flexdashboard)
+library(knitr)
+```
+
+[Ignasi Bartomeus](http://www.bartomeuslab.com), [Ainhoa Magrach](https://www.ainhoamagrach.com/) y [Curro Molina](https://twitter.com/curromolfue) han empezado esta aventura juntos. 
+
+- **Contacto:** [info.abejas.silvestres@gmail.com](mailto:info.abejas.silvestres@gmail.com) 
+
+- **Datos legales:**    
+
+> Asociación Abejas Silvestres  
+C/ Gariñe 0 Portal 2A Piso 2A  
+Getxo 48993, Bizkaia  
+CIF: G95934733  
+
+- **Fotos:** Curro Molina
+
+- **Datos:** Los datos usados han sido recopilados de Gbif, iNaturalist y de diversos investigadores y naturalistas.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
+# All defaults
+include_graphics("media/LogoAAS.png")
+```

@@ -2,5 +2,19 @@ name: "AbejasSilvestres.es"
 output_dir: "."
 output:
   html_document:
-    theme: cosmo
+    theme: flatly
     highlight: textmate
+navbar:
+  left:
+    - text: "AbejasSilvestres.es"
+      href: index.html
+    - text: "Abejas de España"
+      href: diversity.html
+    - text: "Proyecto HA BEE TAT"
+      href: habeetat.html
+    - text: "Recursos"
+      href: resources.html
+    - text: "Quien somos"
+      href: about.html
+      
+      

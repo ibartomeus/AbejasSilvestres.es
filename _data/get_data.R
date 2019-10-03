@@ -22,12 +22,47 @@ megachilidae_key <- name_backbone(name="Megachilidae", rank = "family")$usageKey
 stenotritidae_key <- name_backbone(name="Stenotritidae", rank = "family")$usageKey
 melittidae_key <- name_backbone(name="Melittidae", rank = "family")$usageKey
 
+Syrphidae_key <- name_backbone(name="Syrphidae", rank = "family")$usageKey
+Bombyliidae_key <- name_backbone(name="Bombyliidae", rank = "family")$usageKey
+Scoliidae_key <- name_backbone(name="Scoliidae", rank = "family")$usageKey
+Massaridae_key <- name_backbone(name="Massaridae", rank = "family")$usageKey
+Cetoniidae_key <- name_backbone(name="Cetoniidae", rank = "family")$usageKey
+
 #occ_count(taxonKey=c(apidae_key, andrenidae_key,
  #                    halictidae_key, colletidae_key,
  #                    megachilidae_key, stenotritidae_key, 
  #                     melittidae_key), 
  #          georeferenced=TRUE, 
  #          country=c(spain_code, portugal_code)) #not working with vectors¿?
+
+occ_count(taxonKey= apidae_key, 
+          georeferenced=TRUE) #1607733
+occ_count(taxonKey= andrenidae_key, 
+          georeferenced=TRUE) #401759
+occ_count(taxonKey= halictidae_key, 
+          georeferenced=TRUE) #804065
+occ_count(taxonKey= colletidae_key, 
+          georeferenced=TRUE) #220243
+occ_count(taxonKey= megachilidae_key, 
+          georeferenced=TRUE) #354438
+occ_count(taxonKey= stenotritidae_key, 
+          georeferenced=TRUE) #1516
+occ_count(taxonKey= melittidae_key, 
+          georeferenced=TRUE) #26194
+occ_count(taxonKey= Syrphidae_key, 
+          georeferenced=TRUE) #791366
+occ_count(taxonKey= Bombyliidae_key, 
+          georeferenced=TRUE) #58509
+occ_count(taxonKey= Scoliidae_key, 
+          georeferenced=TRUE) #18541
+occ_count(taxonKey= Massaridae_key, 
+          georeferenced=TRUE) #39245
+occ_count(taxonKey= Cetoniidae_key, 
+          georeferenced=TRUE) #106374
+
+#sum:
+1607733 + 401759 + 804065 + 220243 + 354438 + 1516 + 26194 + 791366 + 58509 + 18541 + 39245 + 106374
+
 
 occ_count(taxonKey= apidae_key, 
           georeferenced=TRUE, 

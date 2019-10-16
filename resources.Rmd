@@ -39,6 +39,11 @@ Seguramente habrás oído hablar de la desaparición de las abejas. En este vide
 ### Más recursos:
 
 - Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
+- Infográfico sobre la importancia de las [redes planta-polinizador](https://ibartomeus.files.wordpress.com/2019/10/plant.pollinator.structure_for.social.media_spanish.jpg?w=584)
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
+# All defaults
+include_graphics("media/infografico_ntw.jpg")
+```
 
 ### Y no dudes en contactarnos si quieres
 

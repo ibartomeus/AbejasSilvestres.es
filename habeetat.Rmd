@@ -50,7 +50,7 @@ La evidencia científica muestra que cultivar con las abejas mejora el rendimien
 # All defaults
 include_graphics("media/summary_HABEETAT.jpg")
 ```
-Puedes descargarte el tríptico [aquí]("media/HABEETAT.pdf").
+Puedes descargarte el tríptico [aquí](media/HABEETAT.pdf).
 
 ### Cómo puedes ayudarnos a investigar con tus datos y saber más sobre la polinización en tu finca.  
 

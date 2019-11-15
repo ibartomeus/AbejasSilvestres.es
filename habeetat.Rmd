@@ -39,7 +39,7 @@ include_graphics("media/Paca.png")
 
 ### Tú te comprometes a plantarlas y cuidarlas  
 
-Y si te apetece, nos ayudas observando las abejas de tu campo.  
+Y si te apetece, nos ayudas observando las abejas de tu campo. Con esa información te podemos ayudar a medir los niveles de poliniciación necesarios para tus cultivos.  
 
 > ¡Únete al proyecto!  
 contáctanos en [info.abejas.silvestres@gmail.com](mailto:info.abejas.silvestres@gmail.com)  
@@ -65,8 +65,12 @@ Recoger datos es importante para evaluar tanto la utilidad del proyecto, como el
 
 > Con la colaboración de:
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="10%", fig.align="center"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="15%", fig.align="center"}
 # All defaults
 include_graphics("media/LOGO_GSF.png")
-include_graphics("media/GEPEC.png")
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
+# All defaults
+include_graphics("media/logos.jpg")
 ```

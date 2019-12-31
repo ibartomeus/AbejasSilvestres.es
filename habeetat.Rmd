@@ -41,16 +41,20 @@ include_graphics("media/Paca.png")
 
 Y si te apetece, nos ayudas observando las abejas de tu campo. Con esa información te podemos ayudar a medir los niveles de poliniciación necesarios para tus cultivos.  
 
-> ¡Únete al proyecto!  
-contáctanos en [info.abejas.silvestres@gmail.com](mailto:info.abejas.silvestres@gmail.com)  
-> Formulario de [inscripción](https://forms.gle/3faU2jPJorpff57M8)
+> Hemos plantado más de 100 margenes con flores autoctonas! 
+Gracias a todos los que habeis participado.
 
-La evidencia científica muestra que cultivar con las abejas mejora el rendimiento del cultivo. La mayoria de practicas recomendadas no son nuevas, y pretenden recuperar el sentido comun a la hora de cuidar la tierra:  
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
+# All defaults
+include_graphics("media/map_habeetat.png")
+```
+El proyecto ya se ha completado para la primavera 2020 con más de 100 agricultores implicados.  
+
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align="center"}
 # All defaults
 include_graphics("media/summary_HABEETAT.jpg")
 ```
-Puedes descargarte el tríptico [aquí](media/HABEETAT.pdf).
+La evidencia científica muestra que cultivar con las abejas mejora el rendimiento del cultivo. La mayoria de practicas recomendadas no son nuevas, y pretenden recuperar el sentido comun a la hora de cuidar la tierra: Puedes descargarte el tríptico [aquí](media/HABEETAT.pdf).
 
 ### Cómo puedes ayudarnos a investigar con tus datos y saber más sobre la polinización en tu finca.  
 

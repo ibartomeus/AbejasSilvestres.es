@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -232,6 +231,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +243,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -290,13 +278,16 @@ $(document).ready(function () {
   <a href="diversity.html">Abejas de España</a>
 </li>
 <li>
-  <a href="habeetat.html">Proyecto HA BEE TAT</a>
+  <a href="proyectos.html">Proyectos</a>
 </li>
 <li>
   <a href="resources.html">Recursos</a>
 </li>
 <li>
   <a href="about.html">Quien somos</a>
+</li>
+<li>
+  <a href="log.html">Que hacemos</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -316,23 +307,21 @@ $(document).ready(function () {
 
 <p><img src="media/abejassilvestres.png" width="100%" /></p>
 <blockquote>
-<p>Abejas Silvestres es una asociación sin animo de lucro para conservar y proteger las más de 1000 especies de abejas silvestres de la Peninsula Ibérica.<br />
-<strong>Síguenos en twitter [@ Abeja_Silvestre](<a href="https://twitter.com/Abeja_Silvestre" class="uri">https://twitter.com/Abeja_Silvestre</a>)</strong></p>
+<p>Abejas Silvestres es una asociación sin animo de lucro para conservar y proteger las más de 1000 especies de abejas silvestres de la Peninsula Ibérica.</p>
 </blockquote>
-<center>
-<blockquote>
-<p>Hazte con la imprescindible <a href="https://www.tundraediciones.es/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=390&amp;virtuemart_category_id=25&amp;lang=es">Guía de campo de las abejas de España</a></p>
-</blockquote>
-</center>
+<div id="quieres-conocer-y-ayudar-a-las-abejas-silvestres" class="section level2">
+<h2>Quieres conocer y ayudar a las abejas silvestres?</h2>
+<ul>
+<li>Síguenos en twitter en <strong>@<a href="https://twitter.com/Abeja_Silvestre">Abeja_Silvestre</a></strong><br />
+</li>
+<li><strong><a href="/resources.html">Explora nuestros recursos educativos</a></strong><br />
+</li>
+<li>Hazte con la imprescindible <strong><a href="https://www.tundraediciones.es/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=390&amp;virtuemart_category_id=25&amp;lang=es">Guía de campo de las abejas de España</a></strong></li>
+</ul>
 <p><img src="media/guia.jpg" width="25%" style="display: block; margin: auto;" /></p>
-<center>
-<blockquote>
-<p>Quieres ayudar a las abejas silvestres en zonas agricolas? <a href="/habeetat.html">HA BEE TAT</a></p>
-</blockquote>
-</center>
-<p><img src="media/habeetat.jpg" width="25%" style="display: block; margin: auto;" /></p>
-<div id="hazte-socio" class="section level1">
-<h1>Hazte socio</h1>
+</div>
+<div id="y-hazte-soci" class="section level2">
+<h2>Y hazte soci@!</h2>
 <p>Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al año que se pagan usando la plataforma <em>Teaming</em>. <em>Teaming</em> es una forma fácil y segura de contribuir al proyecto con 1 euro al mes, y desgravable hasta el 75%.</p>
 <p>Con tu apoyo contribuirás a financiar proyectos de conservación, generar recursos y guías que nos permitan informar mejor a la sociedad sobre las abejas silvestres. Como miembro del equipo recibirás actualizaciones de nuestras actividades.</p>
 <p><strong><a href="https://www.teaming.net/abejassilvestres">Súmate aquí a nuestro equipo Abejas Silvestres</a></strong></p>
@@ -356,6 +345,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

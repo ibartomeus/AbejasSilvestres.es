@@ -14,34 +14,21 @@ include_graphics("media/abejassilvestres.png")
 ```
 
 > Abejas Silvestres es una asociación sin animo de lucro para conservar y proteger las más de 1000 especies de abejas silvestres de la Peninsula Ibérica.   
-**Síguenos en twitter [@ Abeja_Silvestre](https://twitter.com/Abeja_Silvestre)**  
 
+## Quieres conocer y ayudar a las abejas silvestres?   
 
-<center>
+- Síguenos en twitter en **@[Abeja_Silvestre](https://twitter.com/Abeja_Silvestre)**   
+- **[Explora nuestros recursos educativos](/resources.html)**  
+- Hazte con la imprescindible **[Guía de campo de las abejas de España](https://www.tundraediciones.es/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=390&virtuemart_category_id=25&lang=es)**  
 
-> Hazte con la imprescindible [Guía de campo de las abejas de España](https://www.tundraediciones.es/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=390&virtuemart_category_id=25&lang=es)
-
-</center>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="25%", fig.align="center"}
 # All defaults
 include_graphics("media/guia.jpg")
 ```
 
-<center>
+## Y hazte soci@!
 
-> Quieres ayudar a las abejas silvestres en zonas agricolas? [HA BEE TAT](/habeetat.html)
-
-</center>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="25%", fig.align="center"}
-# All defaults
-include_graphics("media/habeetat.jpg")
-```
-
-
-Hazte socio
-============
 
 Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al año que se pagan usando la plataforma *Teaming*. *Teaming* es una forma fácil y segura de contribuir al proyecto con 1 euro al mes, y desgravable hasta el 75%.
 

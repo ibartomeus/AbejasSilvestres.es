@@ -10,11 +10,13 @@ navbar:
       href: index.html
     - text: "Abejas de España"
       href: diversity.html
-    - text: "Proyecto HA BEE TAT"
-      href: habeetat.html
+    - text: "Proyectos"
+      href: proyectos.html
     - text: "Recursos"
       href: resources.html
     - text: "Quien somos"
       href: about.html
+    - text: "Que hacemos"
+      href: log.html
       
       

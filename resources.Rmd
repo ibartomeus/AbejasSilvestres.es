@@ -16,9 +16,10 @@ Nos encanta crear recursos para acercar el mundo de las abejas a todo el mundo.
 - [Infografías](resources.html#infograficos)  
 - [Talleres](resources.html#talleres) y otras actividades  
 
-
----------------------------------------------------------
 <a name="guias"></a>  
+
+----------------------------------------------------------
+
 
 ## Guías rápidas:  
 
@@ -35,6 +36,9 @@ Si quieres profundizar, hazte con la imprescindible [Guía de campo de las abeja
 
 <a name="videos"></a>    
 
+---------------------------------------------------------
+
+
 ## Videos:  
 
 **¿Qué les pasa a las abejas?** Seguramente habrás oído hablar de la desaparición de las abejas. En este video te explicamos qué les está pasando y cómo todos podemos ayudar a su conservación.
@@ -43,9 +47,11 @@ Si quieres profundizar, hazte con la imprescindible [Guía de campo de las abeja
 
 **Más videos:**  
 
-- Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).  
+- Aprende como [hacer un refugio para abejas solitarias](https://www.youtube.com/watch?v=1JOVKWPSuLY).
 
 <a name="infograficos"></a>    
+
+---------------------------------------------------------
 
 ## Infográficos:  
 
@@ -56,6 +62,8 @@ include_graphics("media/infografico_ntw.jpg")
 ```
 
 <a name="talleres"></a>    
+
+---------------------------------------------------------
 
 ## Talleres:  
 

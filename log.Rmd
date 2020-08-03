@@ -9,5 +9,11 @@ title: "Que hacemos"
   - Publciar una mini-guía de Abejorros de España
   - Publicar una mini-guía de plantas beneficiosas para abejas silvestres
   - Incrementar nuestra base de socios
+  
+  
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
+# All defaults
+include_graphics("media/LogoAAS.png")
+```  
 
 

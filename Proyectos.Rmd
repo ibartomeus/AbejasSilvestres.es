@@ -6,3 +6,9 @@ title: "Proyectos"
 
 
 > !Estamos trabajando en más proyectos! 
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
+# All defaults
+include_graphics("media/LogoAAS.png")
+```

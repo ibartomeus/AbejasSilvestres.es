@@ -11,10 +11,10 @@ Nos encanta crear recursos para acercar el mundo de las abejas a todo el mundo.
 
 **¿Qué estas buscando?**
 
-- [Guías]("resources.html#guias") rápidas para identificar abejas  
-- [Videos]("resources.html#videos") divulgaltivos o prácticos   .
-- [Infografías]("resources.html#infograficos")  
-- [Talleres]("resources.html#talleres") y otras actividades  
+- [Guías](resources.html#guias) rápidas para identificar abejas  
+- [Videos](resources.html#videos) divulgaltivos o prácticos   .
+- [Infografías](resources.html#infograficos)  
+- [Talleres](resources.html#talleres) y otras actividades  
 
 
 ---------------------------------------------------------

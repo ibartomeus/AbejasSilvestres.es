@@ -14,9 +14,9 @@ navbar:
       href: proyectos.html
     - text: "Recursos"
       href: resources.html
-    - text: "Quien somos"
+    - text: "Quiénes somos"
       href: about.html
-    - text: "Que hacemos"
+    - text: "Qué hacemos"
       href: log.html
       
       

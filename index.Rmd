@@ -13,7 +13,7 @@ library(knitr)
 include_graphics("media/abejassilvestres.png")
 ```
 
-> Abejas Silvestres es una asociación sin animo de lucro para conservar y proteger las más de 1000 especies de abejas silvestres de la Peninsula Ibérica.   
+> Abejas Silvestres es una asociación sin ánimo de lucro para conservar y proteger las más de 1000 especies de abejas silvestres de la Peninsula Ibérica.   
 
 ## Quieres conocer y ayudar a las abejas silvestres?   
 

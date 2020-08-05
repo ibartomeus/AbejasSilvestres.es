@@ -2,10 +2,10 @@
 title: "Proyectos"
 ---
 
-- Proyecto [HA BEE TAT](habeetat.html): Un proyecto para conservar las poblaciones de abejas silvestres en los campos  
+- Proyecto [HA BEE TAT](habeetat.html): Un proyecto para conservar las poblaciones de abejas silvestres en los campos de cultivo.  
 
 
-> !Estamos trabajando en más proyectos! 
+> ¡Estamos trabajando en más proyectos! 
 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}

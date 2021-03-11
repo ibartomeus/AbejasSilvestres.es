@@ -27,12 +27,18 @@ Nos encanta crear recursos para acercar el mundo de las abejas a todo el mundo.
 
 En pleno vuelo es muy difícil identificar la especie a la que pertenece una abeja, ya que son pequeñas, muy rápidas y muchas se parecen entre sí. La especie más común de abeja que podemos ver en la Península Ibérica es la abeja de la miel (*Apis mellifera*). Otras abejas que también son fáciles de ver, sobre todo por su tamaño, son los abejorros y las abejas carpinteras. En esta mini-guía ([descargar en PDF](/media/Chuleta_id_abejas.pdf)) te enseñamos a distinguir a las abejas de otros insectos, y te presentamos las 6 familias de abejasdes que hay en España.   
 
-```{r guide, echo=FALSE, message=FALSE, warning=FALSE, fig.show = "hold", out.width = "50%"}
+```{r guide, echo=FALSE, message=FALSE, warning=FALSE, fig.show = "hold", out.width = "70%"}
 include_graphics("media/es_abeja.jpg")
 include_graphics("media/que_abeja.jpg")
 ```
 
-Si quieres profundizar, hazte con la imprescindible [Guía de campo de las abejas de España](https://www.tundraediciones.es/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=390&virtuemart_category_id=25&lang=es)
+**Guía Visual de los Abejorros Ibéricos** Hay 38 espcies de abejorros en la península, conoce cómo son y cuál es su distribución. Si quieres conseguir la guía en papel, se la queremos regalar a todos los socios. Hazte [socio/a](index.html#socio) y te la mandamos a casa. Próximamente dejaremos aquí el PDF àra que puedas descargarlo. 
+
+```{r abejorros, echo=FALSE, message=FALSE, warning=FALSE, fig.show = "hold", out.width = "70%"}
+#include_graphics("media/guia_abejorros.jpg")
+```
+
+Si quieres profundizar, hazte con la imprescindible **[Guía de campo de las abejas de España](https://www.tundraediciones.es/index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=390&virtuemart_category_id=25&lang=es)**
 
 <a name="videos"></a>    
 

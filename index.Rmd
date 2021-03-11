@@ -27,14 +27,22 @@ include_graphics("media/abejassilvestres.png")
 include_graphics("media/guia.jpg")
 ```
 
-## Y hazte soci@!
+<a name="socio"></a>   
 
+## Y hazte soci@!  
 
 Os invitamos a sumaros a nuestra asociación. La cuota de socio son 12 EUR al año que se pagan usando la plataforma *Teaming*. *Teaming* es una forma fácil y segura de contribuir al proyecto con 1 euro al mes, y desgravable hasta el 75%.
 
 Con tu apoyo contribuirás a financiar proyectos de conservación, generar recursos y guías que nos permitan informar mejor a la sociedad sobre las abejas silvestres. Como miembro del equipo recibirás actualizaciones de nuestras actividades.
 
-**[Súmate aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/abejassilvestres)**
+Para hacerte socio o socia de la asociación solo tienes que:
+
+1) **[Súmarte aquí a nuestro equipo Abejas Silvestres](https://www.teaming.net/abejassilvestres)**
+
+2) **[Darte de alta en este formulario](https://forms.gle/s6NT9uZ8FuNzTW927)**
+
+> Queremos regalar a todos los socios la Guía Visual de Abejorros Ibéricos. Dejanos tus datos y te la enviamos a casa!  
+
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
 # All defaults

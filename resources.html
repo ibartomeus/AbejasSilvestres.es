@@ -13,6 +13,7 @@
 
 <title>Recursos</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -22,6 +23,15 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -67,6 +77,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -322,8 +333,9 @@ $(document).ready(function () {
 <h2>Guías rápidas:</h2>
 <p><strong>¿Es esto una abeja?, ¿Y qué abeja es?</strong> Las abejas son insectos del orden de los himenópteros, uno de los más numerosos, y que engloba a especies de abejas, abejorros, avispas y hormigas entre otros. Este orden se caracteriza por la presencia de dos pares de alas membranosas y de tres pares de patas. Las abejas, en particular, se diferencian de otras especies del orden con un aspecto similar, como las avispas, en que son exclusivamente vegetarianas, alimentándose durante toda su vida (tanto larvaria como adulta) de néctar y polen. Las avispas, en cambio, aunque también consumen polen y néctar, incluyen otros animales en su dieta. Las abejas suelen ser peludas, lo que facilita que el polen se quede adherido a su cuerpo, y poseen un par de antenas largas. Debido a su dependencia total del polen y néctar se las encuentra fácilmente cerca de flores.</p>
 <p>En pleno vuelo es muy difícil identificar la especie a la que pertenece una abeja, ya que son pequeñas, muy rápidas y muchas se parecen entre sí. La especie más común de abeja que podemos ver en la Península Ibérica es la abeja de la miel (<em>Apis mellifera</em>). Otras abejas que también son fáciles de ver, sobre todo por su tamaño, son los abejorros y las abejas carpinteras. En esta mini-guía (<a href="/media/Chuleta_id_abejas.pdf">descargar en PDF</a>) te enseñamos a distinguir a las abejas de otros insectos, y te presentamos las 6 familias de abejasdes que hay en España.</p>
-<p><img src="media/es_abeja.jpg" width="50%" /><img src="media/que_abeja.jpg" width="50%" /></p>
-<p>Si quieres profundizar, hazte con la imprescindible <a href="https://www.tundraediciones.es/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=390&amp;virtuemart_category_id=25&amp;lang=es">Guía de campo de las abejas de España</a></p>
+<p><img src="media/es_abeja.jpg" width="70%" /><img src="media/que_abeja.jpg" width="70%" /></p>
+<p><strong>Guía Visual de los Abejorros Ibéricos</strong> Hay 38 espcies de abejorros en la península, conoce cómo son y cuál es su distribución. Si quieres conseguir la guía en papel, se la queremos regalar a todos los socios. Hazte <a href="index.html#socio">socio/a</a> y te la mandamos a casa. Próximamente dejaremos aquí el PDF àra que puedas descargarlo.</p>
+<p>Si quieres profundizar, hazte con la imprescindible <strong><a href="https://www.tundraediciones.es/index.php?option=com_virtuemart&amp;view=productdetails&amp;virtuemart_product_id=390&amp;virtuemart_category_id=25&amp;lang=es">Guía de campo de las abejas de España</a></strong></p>
 <p><a name="videos"></a></p>
 <hr />
 </div>
@@ -367,7 +379,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

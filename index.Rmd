@@ -44,6 +44,11 @@ Para hacerte socio o socia de la asociación solo tienes que:
 > Queremos regalar a todos los socios la Guía Visual de Abejorros Ibéricos. Dejanos tus datos y te la enviamos a casa!  
 
 
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%", fig.align="center"}
+# All defaults
+include_graphics("media/guia_abejorros.jpg")
+```
+
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
 # All defaults
 include_graphics("media/LogoAAS.png")

@@ -1,0 +1,17 @@
+---
+title: "Air B&B"
+---
+
+```{r setup, include=FALSE}
+#library(flexdashboard)
+library(knitr)
+```
+
+Hemos asesorado a la Granja SanFrancisco en [esta campaña](https://www.instagram.com/p/CMdFewhqozK/?hl=en) creando hoteles fáciles de instalar, y seleccionando una variedad de semillas nativas que ayuden a las abejas. 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="50%", fig.align="center"}
+# All defaults
+include_graphics("media/Miel_Granja_San_Francisco_Premios.png")
+```
+
+Aquí esta el link al formulario para inscribirse: https://nidos.granjasanfrancisco.com/miel-granja-san-francisco-premios/form
